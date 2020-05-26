@@ -1,5 +1,7 @@
 <h1> Multiclass classification using support vector machines and transformations </h1>
 
+Some of the experiments and techniques described here are part of my publication: https://www.sciencedirect.com/science/article/pii/S187705091600199X
+
 <h3> Transformations </h3>
 <h4> Ridgelet Transform </h4>
 It enhances the idea of point-to-point mapping of cusps to point-to-line mapping using projection slice theorem on radon transforms making it not only a better representer of discretised signals but also more effective in handling directions. It however might not perform well when expected edges are curves rather than lines and hence, we use the curvelet transform as described below. 
@@ -38,4 +40,4 @@ The aforementioned objective can be accomplished with a one-against-one approach
 Applying fast SIFT helps in converting image to frequency domain while the hough transform helps isolate features on shape basis within images by identifying inclass instances through a voting procedure.
 
 
-Some of the experiments and techniques described here are put together at: https://www.sciencedirect.com/science/article/pii/S187705091600199X
+
